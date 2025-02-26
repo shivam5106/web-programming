@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 160px;
+            height:160px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+	    transition: transform 0.3s ease, border-color 0.3s ease;
+	}
+	.gallery img:hover{
+	transform: scale(1.08);
+	border-color: #00d4ff;
+	}
+        
+    </style>
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <div class="gallery">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74RW37I9glcnSel9hSn6HJmat0ziwU4-89w&s" alt="Lenovo">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvsQGCAKM5sgRodCLkcoFT-rZw6sjz_ispA&s" alt="Asus">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRP2rIpk7SWAcMsQ6pGYLcLjzBXsm0JgpWg&s" alt="Acer">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5UAf14y5fUEjqm20Dt-Ygd62OuMqt65E46g&s" alt="HP">
+    </div>
+    <div class="gallery">
+	<img src="https://static-00.iconduck.com/assets.00/apple-logo-icon-1661x2048-8adk63j7.png" alt="Apple">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJzo2KIHEPhNGKXL-TD_er0YtrwP2ToqW_8A&s" alt="LG">
+	<img src="https://i.pinimg.com/736x/a1/18/8a/a1188aacf0e184cfd66acddbb768b859.jpg" alt="Haier">
+	<img src="https://cdn.worldvectorlogo.com/logos/vivo-1.svg" alt="Vivo">
+
+    </div>
+    <div class="gallery">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHJ-ypGZC9LZclYqNNxOg01rONcjRMe005ow&s" alt="SONY">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTllztInTqAtW10rNFa2b8IjME9MFqwjjjYUQ&s" alt="Lloyd">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_q5pAodMjCOuOgtE8HoPdnX6s-K45RYqH9w&s" alt="Havells">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/768px-Dell_Logo.svg.png" alt="Dell">	
+    </div>
+    <div class="gallery">
+	<img src="https://media.licdn.com/dms/image/v2/D560BAQHpfroRLPUudA/company-logo_200_200/company-logo_200_200/0/1724318094009/gonoise_com_logo?e=2147483647&v=beta&t=SUaTv5YqWnEyuMjUQgDY4vC_Em-4H5KYwsLFQ5XfUGo" alt="Noise">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PUUjE4Y91sKkw9HomorDlcgvz1PY5O-PHA&s" alt="Panasonic">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifZ4kOs3l4xZYGxQQWUAjh46tO-PDAhCYBg&s" alt="Hitachi">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_mLDmAFMWPvrhcrZtUFATHkNf0WCpGjkDiQ&s" alt="JBL">	
+    </div>
+<div class="gallery">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52kAsuhj1KRm6I6bIIBDJ2lPNXu1Cd4cY6Q&s" alt="Toshiba">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL5k3g0g8AF1m2BTyiJZAat5lIhtXXVdeBXIZCirhwHVrr8xEhMAbOPCQArKgulEJx81I&usqp=CAU" alt="MI">
+	<img src="https://images.seeklogo.com/logo-png/2/2/canon-logo-png_seeklogo-25733.png" alt="Canon">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/4/49/IFB.png" alt="IFB">
+    </div>
+<div class="gallery">
+	<img src="https://brandlogos.net/wp-content/uploads/2014/08/samsung-logo-preview-400x400.png" alt="Samsung">
+	<img src="https://brandlogos.net/wp-content/uploads/2022/05/iqoo-logo_brandlogos.net_slseg.png" alt="IQOO">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvf9mGi43Jh7VoKYVjCbJ9UD6oMw2N0aKtlQ&s" alt="Boat">
+	<img src="https://seeklogo.com/images/I/intel-logo-3E144A81D9-seeklogo.com.png" alt="Intel">
+</div>
+<div class="gallery">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzv-P4UP1X9khZpjehiWtMPRloCpuS5s2pg&s" alt="MSI">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94d2g4KwKWiw937MG827scdYcKm_1Rfzlvg&s" alt="Oppo">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe-THagLX6foDrQ1cAdWBZNJsQVnd3jCuiJA&s" alt="OnePlus">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjwgGkSec5f1hwGIpvQ30R9Kv7zbNm4SSJw&s" alt="Bose">
+</div>
+<div class="gallery">
+	<img src="https://static.vecteezy.com/system/resources/previews/020/336/120/non_2x/godrej-logo-godrej-icon-free-free-vector.jpg" alt="Godrej">
+	<img src="https://brandlogos.net/wp-content/uploads/2022/07/lava_international-logo_brandlogos.net_j7drl.png" alt="Lava">
+	<img src="https://brandlogos.net/wp-content/uploads/2022/03/nvidia-logo-brandlogos.net_.png" alt="NVidia">	
+	<img src="https://images.yourstory.com/cs/images/companies/3919e0f22def-MOCKUP16Jun181500B561502-1624961435188.jpg?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff" alt="Hammer">
+</div>
+</body>
+</html>
